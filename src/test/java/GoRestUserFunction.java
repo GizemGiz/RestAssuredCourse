@@ -42,8 +42,8 @@ public class GoRestUserFunction {
                 .post("/public/v2/users")
                 .then()
                 .log().body()
-                .statusCode(201)
-                .body("name");
+                .statusCode(201);
+
     }
 
 
